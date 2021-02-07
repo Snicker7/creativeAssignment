@@ -1,0 +1,89 @@
+body {
+  padding-top: 60px;
+  background-color: #008B8B;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #00FFFF;
+}
+
+#Me {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+
+#me {
+  max-width: 100%;
+  min-height: 207px;
+}
+
+.para1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#postsection {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+.date {
+  padding-right: 100px;
+  text-align: left;
+}
+
+.post {
+  padding-left: 100px;
+  text-align: left;
+}
+
+.intro {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+}
+
+#nerdposter {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  width: 400px;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.posters {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+
+#postertext {
+  text-align: center;
+}
