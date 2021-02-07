@@ -31,20 +31,25 @@ h1 {
 
 .para1 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
 }
 
 #postsection {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: column;
 }
 
 .post {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   padding-bottom: 50px;
+  padding-left: 100px;
+  text-align: left;
 }
 
 .date {
@@ -52,14 +57,10 @@ h1 {
   text-align: left;
 }
 
-.post {
-  padding-left: 100px;
-  text-align: left;
-}
-
 .intro {
   padding: 20px 20px 20px 20px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 #nerdposter {
@@ -86,4 +87,40 @@ h1 {
 
 #postertext {
   text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body,
+  img,
+  #Me,
+  #me,
+  .para1,
+  #postsection,
+  .date,
+  .intro {
+    width: 75%
+  }
+}
+
+@media only screen and (min-width: 201px) and (max-width: 401px) {
+  body,
+  img,
+  #Me,
+  #me,
+  .para1,
+  #postsection,
+  .date,
+  .intro {
+    width: 50%
+  }
 }
